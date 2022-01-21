@@ -5,7 +5,7 @@ Repository for the modpack, Magic and Metallum Reignited
   What is Magic and Metallum Reignited?
 </h2> 
 <p>
-  Magic and Metallum Reignited re-introduces one of the largest packs I've built, it's initial creation, a few years ago, focused on the kitchen-sink type mods I've always loved from 1.7.10. This pack sways from that mindset in a few ways. The largest of all is the focus on exploration. I've always wanted a pack where the player can go anywhere and feel like they are experiencing something new wherever they go.
+ Magic and Metallum Reignited re-introduces one of the largest packs I've built, its initial creation, a few years ago, focused on the kitchen-sink type mods I've always loved from 1.7.10. This pack sways from that mindset in a few ways. The largest of all is the focus on exploration. I've always wanted a pack where the player can go anywhere and feel like they are experiencing something new wherever they may go. 
 </p>
 <h2>
   Current focuses?
