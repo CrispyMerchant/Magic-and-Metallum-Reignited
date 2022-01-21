@@ -1,0 +1,25 @@
+{
+	"mod": "autumnity",
+	"spawn": {
+		// Array of all categories this mod has spawns for
+		"categories": {
+			"creature": {
+				// Set the limit per mob within this category
+				"spawns": {
+					"snail": {
+						// Do not edit this name
+						"name": "snail",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"turkey": {
+						// Do not edit this name
+						"name": "turkey",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					}
+				}
+			}
+		}
+	}
+}

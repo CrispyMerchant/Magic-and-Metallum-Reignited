@@ -1,0 +1,72 @@
+{
+	"mod": "mana-and-artifice",
+	"spawn": {
+		// Array of all categories this mod has spawns for
+		"categories": {
+			"creature": {
+				// Set the limit per mob within this category
+				"spawns": {
+					"spectral_horse": {
+						// Do not edit this name
+						"name": "spectral_horse",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					}
+				}
+			},
+			"monster": {
+				// Set the limit per mob within this category
+				"spawns": {
+					"pixie": {
+						// Do not edit this name
+						"name": "pixie",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"spell_breaker": {
+						// Do not edit this name
+						"name": "spell_breaker",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"lantern_wraith": {
+						// Do not edit this name
+						"name": "lantern_wraith",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"demon_imp": {
+						// Do not edit this name
+						"name": "demon_imp",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"skeleton_assassin": {
+						// Do not edit this name
+						"name": "skeleton_assassin",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"mushroom_soldier": {
+						// Do not edit this name
+						"name": "mushroom_soldier",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"hulking_zombie": {
+						// Do not edit this name
+						"name": "hulking_zombie",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"witch_hunter": {
+						// Do not edit this name
+						"name": "witch_hunter",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					}
+				}
+			}
+		}
+	}
+}

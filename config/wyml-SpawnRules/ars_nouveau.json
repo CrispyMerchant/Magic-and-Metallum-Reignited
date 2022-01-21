@@ -1,0 +1,132 @@
+{
+	"mod": "ars_nouveau",
+	"spawn": {
+		// Array of all categories this mod has spawns for
+		"categories": {
+			"creature": {
+				// Set the limit per mob within this category
+				"spawns": {
+					"cascading_weald_walker": {
+						// Do not edit this name
+						"name": "cascading_weald_walker",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"familiar_carbuncle": {
+						// Do not edit this name
+						"name": "familiar_carbuncle",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"familiar_sylph": {
+						// Do not edit this name
+						"name": "familiar_sylph",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"familiar_bookwyrm": {
+						// Do not edit this name
+						"name": "familiar_bookwyrm",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"familiar_jabberwog": {
+						// Do not edit this name
+						"name": "familiar_jabberwog",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"summon_horse": {
+						// Do not edit this name
+						"name": "summon_horse",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"drygmy": {
+						// Do not edit this name
+						"name": "drygmy",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"blazing_weald_walker": {
+						// Do not edit this name
+						"name": "blazing_weald_walker",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"sylph": {
+						// Do not edit this name
+						"name": "sylph",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"flourishing_weald_walker": {
+						// Do not edit this name
+						"name": "flourishing_weald_walker",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"carbuncle": {
+						// Do not edit this name
+						"name": "carbuncle",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"summon_wolf": {
+						// Do not edit this name
+						"name": "summon_wolf",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"familiar_drygmy": {
+						// Do not edit this name
+						"name": "familiar_drygmy",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"familiar_wixie": {
+						// Do not edit this name
+						"name": "familiar_wixie",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"vexing_weald_walker": {
+						// Do not edit this name
+						"name": "vexing_weald_walker",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					}
+				}
+			},
+			"monster": {
+				// Set the limit per mob within this category
+				"spawns": {
+					"wilden_guardian": {
+						// Do not edit this name
+						"name": "wilden_guardian",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"wilden_hunter": {
+						// Do not edit this name
+						"name": "wilden_hunter",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"wilden_stalker": {
+						// Do not edit this name
+						"name": "wilden_stalker",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"wilden_boss": {
+						// Do not edit this name
+						"name": "wilden_boss",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					}
+				}
+			}
+		}
+	}
+}

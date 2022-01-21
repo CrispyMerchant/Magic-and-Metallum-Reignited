@@ -1,0 +1,37 @@
+{
+	"mod": "endergetic",
+	"spawn": {
+		// Array of all categories this mod has spawns for
+		"categories": {
+			"creature": {
+				// Set the limit per mob within this category
+				"spawns": {
+					"booflo_baby": {
+						// Do not edit this name
+						"name": "booflo_baby",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"booflo_adolescent": {
+						// Do not edit this name
+						"name": "booflo_adolescent",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"booflo": {
+						// Do not edit this name
+						"name": "booflo",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"puff_bug": {
+						// Do not edit this name
+						"name": "puff_bug",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					}
+				}
+			}
+		}
+	}
+}

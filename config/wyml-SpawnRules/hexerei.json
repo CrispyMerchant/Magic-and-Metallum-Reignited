@@ -1,0 +1,30 @@
+{
+	"mod": "hexerei",
+	"spawn": {
+		// Array of all categories this mod has spawns for
+		"categories": {
+			"creature": {
+				// Set the limit per mob within this category
+				"spawns": {
+					"pigeon": {
+						// Do not edit this name
+						"name": "pigeon",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					}
+				}
+			},
+			"monster": {
+				// Set the limit per mob within this category
+				"spawns": {
+					"buff_zombie": {
+						// Do not edit this name
+						"name": "buff_zombie",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					}
+				}
+			}
+		}
+	}
+}

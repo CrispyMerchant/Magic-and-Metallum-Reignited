@@ -1,0 +1,36 @@
+{
+	"mod": "druidcraft",
+	"spawn": {
+		// Array of all categories this mod has spawns for
+		"categories": {
+			"creature": {
+				// Set the limit per mob within this category
+				"spawns": {
+					"lunar_moth": {
+						// Do not edit this name
+						"name": "lunar_moth",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					}
+				}
+			},
+			"monster": {
+				// Set the limit per mob within this category
+				"spawns": {
+					"beetle": {
+						// Do not edit this name
+						"name": "beetle",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"dreadfish": {
+						// Do not edit this name
+						"name": "dreadfish",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					}
+				}
+			}
+		}
+	}
+}

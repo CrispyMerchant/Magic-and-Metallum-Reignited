@@ -1,0 +1,25 @@
+{
+	"mod": "buzzier_bees",
+	"spawn": {
+		// Array of all categories this mod has spawns for
+		"categories": {
+			"creature": {
+				// Set the limit per mob within this category
+				"spawns": {
+					"moobloom": {
+						// Do not edit this name
+						"name": "moobloom",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"grizzly_bear": {
+						// Do not edit this name
+						"name": "grizzly_bear",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,72 @@
+{
+	"mod": "rats",
+	"spawn": {
+		// Array of all categories this mod has spawns for
+		"categories": {
+			"creature": {
+				// Set the limit per mob within this category
+				"spawns": {
+					"rat": {
+						// Do not edit this name
+						"name": "rat",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"plague_doctor": {
+						// Do not edit this name
+						"name": "plague_doctor",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					}
+				}
+			},
+			"monster": {
+				// Set the limit per mob within this category
+				"spawns": {
+					"rat_king": {
+						// Do not edit this name
+						"name": "rat_king",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"black_death": {
+						// Do not edit this name
+						"name": "black_death",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"rat_spawner": {
+						// Do not edit this name
+						"name": "rat_spawner",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"plague_cloud": {
+						// Do not edit this name
+						"name": "plague_cloud",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"pied_piper": {
+						// Do not edit this name
+						"name": "pied_piper",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"plague_beast": {
+						// Do not edit this name
+						"name": "plague_beast",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"demon_rat": {
+						// Do not edit this name
+						"name": "demon_rat",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					}
+				}
+			}
+		}
+	}
+}

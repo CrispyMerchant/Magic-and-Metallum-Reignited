@@ -1,0 +1,54 @@
+{
+	"mod": "environmental",
+	"spawn": {
+		// Array of all categories this mod has spawns for
+		"categories": {
+			"creature": {
+				// Set the limit per mob within this category
+				"spawns": {
+					"deer": {
+						// Do not edit this name
+						"name": "deer",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"slabfish": {
+						// Do not edit this name
+						"name": "slabfish",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"yak": {
+						// Do not edit this name
+						"name": "yak",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"duck": {
+						// Do not edit this name
+						"name": "duck",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"fennec_fox": {
+						// Do not edit this name
+						"name": "fennec_fox",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					}
+				}
+			},
+			"water_ambient": {
+				// Set the limit per mob within this category
+				"spawns": {
+					"koi": {
+						// Do not edit this name
+						"name": "koi",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 20
+					}
+				}
+			}
+		}
+	}
+}

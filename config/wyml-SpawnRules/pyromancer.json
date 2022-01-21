@@ -1,0 +1,103 @@
+{
+	"mod": "pyromancer",
+	"spawn": {
+		// Array of all categories this mod has spawns for
+		"categories": {
+			"monster": {
+				// Set the limit per mob within this category
+				"spawns": {
+					"pygromancer": {
+						// Do not edit this name
+						"name": "pygromancer",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"pyroroots": {
+						// Do not edit this name
+						"name": "pyroroots",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"schizoid_helm_alive": {
+						// Do not edit this name
+						"name": "schizoid_helm_alive",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"frostcopper_golem": {
+						// Do not edit this name
+						"name": "frostcopper_golem",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"pigmen_legion": {
+						// Do not edit this name
+						"name": "pigmen_legion",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"pyronado_friendly": {
+						// Do not edit this name
+						"name": "pyronado_friendly",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"pigman_chief": {
+						// Do not edit this name
+						"name": "pigman_chief",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"pyronado": {
+						// Do not edit this name
+						"name": "pyronado",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"pigman_breaker": {
+						// Do not edit this name
+						"name": "pigman_breaker",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"scorching_soul": {
+						// Do not edit this name
+						"name": "scorching_soul",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"borov": {
+						// Do not edit this name
+						"name": "borov",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"blazing_soul": {
+						// Do not edit this name
+						"name": "blazing_soul",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"pigman_protector": {
+						// Do not edit this name
+						"name": "pigman_protector",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"pigman_vexillary": {
+						// Do not edit this name
+						"name": "pigman_vexillary",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"unburned": {
+						// Do not edit this name
+						"name": "unburned",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					}
+				}
+			}
+		}
+	}
+}

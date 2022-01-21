@@ -1,0 +1,48 @@
+{
+	"mod": "mca",
+	"spawn": {
+		// Array of all categories this mod has spawns for
+		"categories": {
+			"ambient": {
+				// Set the limit per mob within this category
+				"spawns": {
+					"female_villager": {
+						// Do not edit this name
+						"name": "female_villager",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"male_villager": {
+						// Do not edit this name
+						"name": "male_villager",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					}
+				}
+			},
+			"monster": {
+				// Set the limit per mob within this category
+				"spawns": {
+					"grim_reaper": {
+						// Do not edit this name
+						"name": "grim_reaper",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"male_zombie_villager": {
+						// Do not edit this name
+						"name": "male_zombie_villager",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"female_zombie_villager": {
+						// Do not edit this name
+						"name": "female_zombie_villager",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					}
+				}
+			}
+		}
+	}
+}

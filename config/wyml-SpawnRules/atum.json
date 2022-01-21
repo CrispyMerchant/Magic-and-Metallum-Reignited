@@ -1,0 +1,138 @@
+{
+	"mod": "atum",
+	"spawn": {
+		// Array of all categories this mod has spawns for
+		"categories": {
+			"creature": {
+				// Set the limit per mob within this category
+				"spawns": {
+					"desert_wolf": {
+						// Do not edit this name
+						"name": "desert_wolf",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"serval": {
+						// Do not edit this name
+						"name": "serval",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"camel": {
+						// Do not edit this name
+						"name": "camel",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"desert_rabbit": {
+						// Do not edit this name
+						"name": "desert_rabbit",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"quail": {
+						// Do not edit this name
+						"name": "quail",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					}
+				}
+			},
+			"monster": {
+				// Set the limit per mob within this category
+				"spawns": {
+					"bonestorm": {
+						// Do not edit this name
+						"name": "bonestorm",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"barbarian": {
+						// Do not edit this name
+						"name": "barbarian",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"mummy": {
+						// Do not edit this name
+						"name": "mummy",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"stonewarden": {
+						// Do not edit this name
+						"name": "stonewarden",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"brigand": {
+						// Do not edit this name
+						"name": "brigand",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"forsaken": {
+						// Do not edit this name
+						"name": "forsaken",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"stoneguard": {
+						// Do not edit this name
+						"name": "stoneguard",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"assassin": {
+						// Do not edit this name
+						"name": "assassin",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"nomad": {
+						// Do not edit this name
+						"name": "nomad",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"tarantula": {
+						// Do not edit this name
+						"name": "tarantula",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"pharaoh": {
+						// Do not edit this name
+						"name": "pharaoh",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"bandit_warlord": {
+						// Do not edit this name
+						"name": "bandit_warlord",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"wraith": {
+						// Do not edit this name
+						"name": "wraith",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"sergeant": {
+						// Do not edit this name
+						"name": "sergeant",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"scarab": {
+						// Do not edit this name
+						"name": "scarab",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					}
+				}
+			}
+		}
+	}
+}
