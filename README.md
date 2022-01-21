@@ -1,4 +1,4 @@
-# Magic-and-Metallum
+# Magic-and-Metallum-Reignited
 Repository for the modpack, Magic and Metallum Reignited
 
 <h2>
