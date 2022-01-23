@@ -1,0 +1,61 @@
+M&M Reignited Beta v1.2.0 Changelog
+
+Edited a few changelogs to provide more manuverability for the dodging
+Fixed a few more ore gen problems
+Fixed Seed bag so it actually does its job as well as other "clicky" inventory mods
+Changed to an older version of the thermal series
+
+Mods removed
+-------------------------------------
+*Dynamic Surroundings - Compatability issues with other sound mods which can replace DS
+*Total Darkness - Possible compatability issues with magnesium
+*Cold Sweat - Doesn't work well with packs main leaning points
+*Login Shield - Some strange issues with servers when testing/also shouldn't be in the clientside version
+
+
+Mods added:
+-------------------------------------
+*Chissel and bits
+*Shrink Mod
+*Pyromancer
+*Lost Trinkets
+*Flux Networks
+*Refined Pipes
+*Mana and Artifice
+*Ironchest
+*Industrial Foregoing
+*Ender Storage
+*CodeChickenLib
+*Lost Trinkets
+
+------------------------------------------------------------------------------------------------------------
+
+Notes for v1.2.5:
+
+Added mods
+--Whisperwoods (For the spookums!)
+--ParCool (For all it's sprinting and flipping glory!)
+--Implemented Initial inventory (Including books!)
+--Enhanced Celestials (Get ready for a frightful night!)
+
+*More specifics -
+-Added the ability to store most if not all of the formally allowed books into the Akashic Tome.
+    Added the Tome filled with starting books to spawn with the player initially
+
+-Removed spirit orb gen from spawners and 
+
+
+Main TODOs:
+
+-Reduce lag on lower end PCs
+-Find any issues with server performance
+-Remove spirit orbs
+-Implement Initial Inventory for the Tome
+-Create ZenScript file for edits
+
+-Add starting equipment for Akashic Tome
+-------> Tome item id is: <item:akashictome:tome>.withTag({"akashictome:is_morphing": 1 as byte, "akashictome:data": {tconstruct: {id: "tconstruct:materials_and_you" as string, Count: 1 as byte, tag: {mantle: {book: {current_page: "" as string}}, display: {Name: "{\"text\":\"Materials and You\"}" as string}}}, ars_nouveau: {id: "ars_nouveau:worn_notebook" as string, Count: 1 as byte}, astralsorcery: {id: "astralsorcery:tome" as string, Count: 1 as byte}, alexsmobs: {id: "alexsmobs:animal_dictionary" as string, Count: 1 as byte}, theabyss: {id: "theabyss:guide_book" as string, Count: 1 as byte, tag: {"akashictome:displayName": {text: "The Abyss: The Other Side" as string}, "akashictome:is_morphing": 1 as byte, display: {Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"text\":\"The Abyss: The Other Side\"}]}" as string}}}, mca: {id: "mca:book_rose_gold" as string, Count: 1 as byte}, eidolon: {id: "eidolon:codex" as string, Count: 1 as byte}}})
+
+
+
+-Possibly look into the chance to add sounds to the tetra items?
