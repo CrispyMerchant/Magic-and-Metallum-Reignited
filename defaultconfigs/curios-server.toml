@@ -1,11 +1,14 @@
-# Creating curio slots
+# Creating new curio slots
 
 [[curiosSettings]]
   identifier = "belt"
   size = 2
+  
 [[curiosSettings]]
   identifier = "necklace"
   size = 2
+  
 [[curiosSettings]]
   identifier = "charm"
   size = 2
+  
