@@ -52,6 +52,7 @@ Removed Mods
 Updated mods
 --Updated Geckolib-forge-1.16.5-3.0.61 -> Geckolib-forge-1.16.5-3.0.61
 --Updated Iceberg-1.16.5-1.0.34 -> Iceberg-1.16.5-1.0.38
+--Updated Mowziesmobs-1.5.19 -> mowziesmobs-1.5.20
 
 ---------------------------------------------------
 **More specifics
