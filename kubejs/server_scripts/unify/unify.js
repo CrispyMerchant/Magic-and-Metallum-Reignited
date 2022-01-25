@@ -1,0 +1,159 @@
+// priority: 100
+
+settings.logAddedRecipes = false
+settings.logRemovedRecipes = false
+settings.logSkippedRecipes = false
+settings.logErroringRecipes = false
+
+events.listen('recipes', event => {
+    const { smelting, blasting } = event.recipes.minecraft
+
+    var unifyMetal = function (name, hasOre, nuggetItem, ingotItem, blockItem, dustItem, gearItem, plateItem) {
+        if (ingotItem !== '') event.replaceOutput('#forge:ingots/' + name, ingotItem)
+        if (dustItem !== '') event.replaceOutput('#forge:dusts/' + name, dustItem)
+        if (nuggetItem !== '') event.replaceOutput('#forge:nuggets/' + name, nuggetItem)
+        if (blockItem !== '') event.replaceOutput('#forge:storage_blocks/' + name, blockItem)
+        if (gearItem !== '') event.replaceOutput('#forge:gears/' + name, gearItem)
+        if (plateItem !== '') event.replaceOutput('#forge:plates/' + name, plateItem)
+        event.remove({output: '#forge:ingots/' + name, type: 'minecraft:smelting'})
+        event.remove({output: '#forge:ingots/' + name, type: 'minecraft:blasting'})
+        if (dustItem !== '' && ingotItem !== '') {
+            smelting(ingotItem, '#forge:dusts/' + name).xp(0.7)
+            blasting(ingotItem, '#forge:dusts/' + name).xp(0.7)
+        }
+        if (hasOre && ingotItem !== '') {
+            smelting(ingotItem, '#forge:ores/' + name).xp(0.7)
+            blasting(ingotItem, '#forge:ores/' + name).xp(0.7)
+        }
+    }
+
+    unifyMetal('iron', true, 'minecraft:iron_nugget', 'minecraft:iron_ingot', 'minecraft:iron_block', 'thermal:iron_dust', 'thermal:iron_gear', 'thermal:iron_plate')
+    unifyMetal('gold', true, 'minecraft:gold_nugget', 'minecraft:gold_ingot', 'minecraft:gold_block', 'thermal:gold_dust', 'thermal:gold_gear', 'thermal:gold_plate')
+    unifyMetal('diamond', true, '', '', 'minecraft:diamond_block', 'thermal:diamond_dust', 'thermal:diamond_gear', '')
+    unifyMetal('steel', false, 'immersiveengineering:nugget_steel', 'immersiveengineering:ingot_steel', 'immersiveengineering:storage_steel', 'immersiveengineering:dust_steel', '', 'immersiveengineering:plate_steel')
+    unifyMetal('copper', true, 'thermal:copper_nugget', 'thermal:copper_ingot', 'thermal:copper_block', 'thermal:copper_dust', 'thermal:copper_gear', 'thermal:copper_plate')
+    unifyMetal('silver', true, 'thermal:silver_nugget', 'thermal:silver_ingot', 'thermal:silver_block', 'thermal:silver_dust', 'thermal:silver_gear', 'thermal:silver_plate')
+    unifyMetal('nickel', true, 'thermal:nickel_nugget', 'thermal:nickel_ingot', 'thermal:nickel_block', 'thermal:nickel_dust', 'thermal:nickel_gear', 'thermal:nickel_plate')
+    unifyMetal('uranium', true, 'mekanism:nugget_uranium', 'mekanism:ingot_uranium', 'mekanism:block_uranium', 'mekanism:dust_uranium', '', 'immersiveengineering:plate_uranium')
+    unifyMetal('tin', true, 'thermal:tin_nugget', 'thermal:tin_ingot', 'thermal:tin_block', 'thermal:tin_dust', 'thermal:tin_gear', 'thermal:tin_plate')
+    unifyMetal('lead', true, 'thermal:lead_nugget', 'thermal:lead_ingot', 'thermal:lead_block', 'thermal:lead_dust', 'thermal:lead_gear', 'thermal:lead_plate')
+    unifyMetal('bronze', false, 'thermal:bronze_nugget', 'thermal:bronze_ingot', 'thermal:bronze_block', 'thermal:bronze_dust', 'thermal:bronze_gear', 'thermal:bronze_plate')
+    unifyMetal('electrum', false, 'thermal:electrum_nugget', 'thermal:electrum_ingot', 'thermal:electrum_block', 'thermal:electrum_dust', 'thermal:electrum_gear', 'thermal:electrum_plate')
+    unifyMetal('bronze', false, 'thermal:bronze_nugget', 'thermal:bronze_ingot', 'thermal:bronze_block', 'thermal:bronze_dust', 'thermal:bronze_gear', 'thermal:bronze_plate')
+    unifyMetal('constantan', false, 'thermal:constantan_nugget', 'thermal:constantan_ingot', 'thermal:constantan_block', 'thermal:constantan_dust', 'thermal:constantan_gear', 'thermal:constantan_plate')
+
+    event.remove({output: 'immersiveengineering:slab_storage_constantan'})
+    event.replaceOutput('mekanism:copper_ore', 'thermal:copper_ore')
+    event.replaceOutput('mekanism:lead_ore', 'thermal:lead_ore')
+    event.replaceOutput('mekanism:tin_ore', 'thermal:tin_ore')
+
+    event.remove({output: 'mcwbridges:iron_platform'})
+    event.replaceInput('mcwbridges:iron_platform', '#forge:plates/iron')
+    event.remove({output: 'mcwbridges:iron_rod'})
+    event.replaceInput('mcwbridges:iron_rod', '#forge:rods/iron')
+
+    event.replaceInput('thermal:quartz_dust', '#forge:dusts/quartz')
+    event.replaceOutput('thermal:quartz_dust', 'appliedenergistics2:nether_quartz_dust')
+    event.replaceInput('mekanism:dust_quartz', '#forge:dusts/quartz')
+    event.replaceOutput('mekanism:dust_quartz', 'appliedenergistics2:nether_quartz_dust')
+
+    event.replaceInput('mekanism:dust_quartz', '#forge:dusts/quartz')
+    event.replaceOutput('mekanism:dust_quartz', 'appliedenergistics2:nether_quartz_dust')
+
+    event.replaceInput('mekanism:dust_lapis_lazuli', '#forge:dusts/lapis')
+    event.replaceOutput('mekanism:dust_lapis_lazuli', 'thermal:lapis_dust')
+
+    event.replaceInput('mekanism:dust_emerald', '#forge:dusts/emerald')
+    event.replaceOutput('mekanism:dust_emerald', 'thermal:emerald_dust')
+
+    event.replaceInput('immersiveengineering:dust_wood', '#forge:sawdust')
+    event.replaceOutput('immersiveengineering:dust_wood', 'thermal:sawdust')
+    event.replaceInput('mekanism:sawdust', '#forge:sawdust')
+    event.replaceOutput('mekanism:sawdust', 'thermal:sawdust')
+
+    event.replaceInput('immersiveengineering:dust_sulfur', '#forge:dusts/sulfur')
+    event.replaceOutput('immersiveengineering:dust_sulfur', 'thermal:sulfur_dust')
+    event.replaceInput('mekanism:dust_sulfur', '#forge:dusts/sulfur')
+    event.replaceOutput('mekanism:dust_sulfur', 'thermal:sulfur_dust')
+
+    event.replaceOutput('bloodmagic:coalsand', 'mekanism:dust_coal')
+    event.replaceOutput('bloodmagic:saltpeter', 'immersiveengineering:dust_saltpeter')
+    event.replaceOutput('bloodmagic:sulfur', 'thermal:sulfur_dust')
+    event.replaceOutput('bloodmagic:ironsand', 'thermal:iron_dust')
+    event.replaceOutput('bloodmagic:goldsand', 'thermal:gold_dust')
+
+    event.replaceInput('immersiveengineering:slag', '#forge:slag')
+    event.replaceInput('thermal:slag', '#forge:slag')
+    event.replaceOutput('immersiveengineering:slag', 'thermal:slag')
+
+    event.replaceInput('immersiveengineering:creosote_bucket', '#forge:creosote_bucket')
+    event.replaceInput('thermal:creosote_bucket', '#forge:creosote_bucket')
+})
+
+events.listen('item.tags', event => {
+
+    event.get('appliedenergistics2:dusts/quartz').remove('thermal:quartz_dust')
+    event.get('appliedenergistics2:dusts/quartz').remove('mekanism:dust_quartz')
+    event.get('forge:dusts/quartz').remove('thermal:quartz_dust')
+    event.get('forge:dusts/quartz').remove('mekanism:dust_quartz')
+
+    event.get('forge:dusts/lapis').remove('mekanism:dust_lapis_lazuli')
+
+    event.get('forge:dusts/emerald').remove('mekanism:dust_emerald')
+
+    event.get('forge:sawdust').remove('immersiveengineering:dust_wood')
+    event.get('forge:dusts/wood').remove('immersiveengineering:dust_wood')
+    event.get('forge:dusts/wood').remove('mekanism:sawdust')
+    event.get('forge:dusts/wood').add('thermal:sawdust')
+
+    event.get('forge:dusts/sulfur').remove('immersiveengineering:dust_sulfur')
+    event.get('minecolonies:blacksmith_ingredient_excluded').remove('mekanism:dust_sulfur')
+    event.get('minecolonies:blacksmith_product_excluded').remove('mekanism:dust_sulfur')
+    event.get('forge:dusts/sulfur').remove('mekanism:dust_sulfur')
+    event.get('minecolonies:dyer_ingredient').remove('mekanism:dust_sulfur')
+    event.get('minecolonies:dyer_product').remove('mekanism:dust_sulfur')
+    event.get('forge:dyes/yellow').remove('mekanism:dust_sulfur')
+    event.get('minecolonies:fletcher_ingredient_excluded').remove('mekanism:dust_sulfur')
+    event.get('minecolonies:glassblower_ingredient_excluded').remove('mekanism:dust_sulfur')
+    event.get('minecolonies:stonemason_ingredient_excluded').remove('mekanism:dust_sulfur')
+    event.get('minecolonies:blacksmith_ingredient_excluded').add('thermal:sulfur_dust')
+    event.get('minecolonies:blacksmith_product_excluded').add('thermal:sulfur_dust')
+    event.get('forge:dusts/sulfur').add('thermal:sulfur_dust')
+    event.get('minecolonies:dyer_ingredient').add('thermal:sulfur_dust')
+    event.get('minecolonies:dyer_product').add('thermal:sulfur_dust')
+    event.get('forge:dyes/yellow').add('thermal:sulfur_dust')
+    event.get('minecolonies:fletcher_ingredient_excluded').add('thermal:sulfur_dust')
+    event.get('minecolonies:glassblower_ingredient_excluded').add('thermal:sulfur_dust')
+    event.get('minecolonies:stonemason_ingredient_excluded').add('thermal:sulfur_dust')
+
+    event.get('forge:dusts/iron').remove('bloodmagic:ironsand')
+    event.get('forge:dusts/gold').remove('bloodmagic:goldsand')
+    event.get('forge:dusts/sulfur').remove('bloodmagic:sulfur')
+    event.get('forge:dusts/saltpeter').remove('bloodmagic:saltpeter')
+    event.get('forge:dusts/coal').remove('bloodmagic:coalsand')
+    event.get('forge:dyes/yellow').add('thermal:sulfur_dust')
+
+    event.get('forge:creosote_bucket').add([
+        'immersiveengineering:creosote_bucket',
+        'thermal:creosote_bucket'
+    ])
+})
+
+events.listen('block.tags', event => {
+    event.get('forge:ores').add('mana-and-artifice:vinteum_ore')
+    event.get('forge:ores').add('appliedenergistics2:quartz_ore')
+    event.get('forge:ores').add('appliedenergistics2:charged_quartz_ore')
+
+})
+
+events.listen('fluid.tags', event => {
+    event.get('minecraft:water').remove([
+        'create:flowing_honey',
+        'create:honey',
+        'create:flowing_chocolate',
+        'create:chocolate'
+    ])
+    event.get('forge:creosote').add([
+        'thermal:creosote'
+    ])
+})

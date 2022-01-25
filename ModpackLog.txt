@@ -32,30 +32,51 @@ Mods added:
 
 Notes for v1.2.5:
 
-Added mods
+Added Mods
 --Whisperwoods (For the spookums!)
---ParCool (For all it's sprinting and flipping glory!)
---Implemented Initial inventory (Including books!)
---Enhanced Celestials (Get ready for a frightful night!)
+--Re-introduced ParCool (For all it's sprinting and flipping glory!)
+--Initial inventory (Getting ready for starting equipment)
+--Enhanced Celestials (Get ready for some frightful nights!)
+--Farsight (An 'eye-opening' experience. see what I did there?)
+--Spiders 2.0 (Making spiders, more spidery)
+--RandomPatches (Random patches)
+--Better Weather (Removed Serene Seasons)
+--KubeJS series of mods for editing recipies
+(Should be the final added mods. May change in the future with enough demand or with any issues that may come up)
 
-*More specifics -
--Added the ability to store most if not all of the formally allowed books into the Akashic Tome.
-    Added the Tome filled with starting books to spawn with the player initially
 
--Removed spirit orb gen from spawners and 
+Removed Mods
+--Serene Seasons - Not exactly what I was looking for. Better weather also added more, you guessed it, weather effects.
+--Craft tweaker (replaced with KubeJS)
 
+Updated mods
+--Updated Geckolib-forge-1.16.5-3.0.61 -> Geckolib-forge-1.16.5-3.0.61
+--Updated Iceberg-1.16.5-1.0.34 -> Iceberg-1.16.5-1.0.38
+
+---------------------------------------------------
+**More specifics
+--Replaced ores, allowing only thermal expansion main ores ie: copper, tin, lead, etc. To be generated when smelting/pulverising.
+   This does not remove ores that are specifically from other mods ie: Osmium, Prosperity Ore. Just shared ores.
+   (Primary implementations were based off the Direwolf20 pack, chears to them!)
+--Removed spirit orb gen from spawners and chest gen
+--Removed specific lost trinkets I thought were a little too powerful including magical feathers and rock candy
+
+
+*Reminders/Recomendations (for those who are just seeing this pack):
+This pack is currently in it's beta stages, it's also one of the first packs I've really delved into, there will be optimization issues as well as some rough looking scripts/code
+if you have any advice, tips, or recomendations I'd love to hear them!
+
+I also recommend anyone playing to use around 6G-8G of RAM for now. Remember your JVM arguments, they can help quite a lot!
 
 Main TODOs:
 
 -Reduce lag on lower end PCs
--Find any issues with server performance
--Remove spirit orbs
--Implement Initial Inventory for the Tome
--Create ZenScript file for edits
+-Find issues with server performance
 
 -Add starting equipment for Akashic Tome
 -------> Tome item id is: <item:akashictome:tome>.withTag({"akashictome:is_morphing": 1 as byte, "akashictome:data": {tconstruct: {id: "tconstruct:materials_and_you" as string, Count: 1 as byte, tag: {mantle: {book: {current_page: "" as string}}, display: {Name: "{\"text\":\"Materials and You\"}" as string}}}, ars_nouveau: {id: "ars_nouveau:worn_notebook" as string, Count: 1 as byte}, astralsorcery: {id: "astralsorcery:tome" as string, Count: 1 as byte}, alexsmobs: {id: "alexsmobs:animal_dictionary" as string, Count: 1 as byte}, theabyss: {id: "theabyss:guide_book" as string, Count: 1 as byte, tag: {"akashictome:displayName": {text: "The Abyss: The Other Side" as string}, "akashictome:is_morphing": 1 as byte, display: {Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"text\":\"The Abyss: The Other Side\"}]}" as string}}}, mca: {id: "mca:book_rose_gold" as string, Count: 1 as byte}, eidolon: {id: "eidolon:codex" as string, Count: 1 as byte}}})
 
-
-
--Possibly look into the chance to add sounds to the tetra items?
+*Remove a few of the lost trinkets for balance reasons
+*Possibly remove Hexerei for now as it's still in beta
+*Look into adding sounds to the tetra/items with missing sounds for ImmersiveFX?
+*
