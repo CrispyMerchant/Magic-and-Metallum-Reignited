@@ -53,7 +53,7 @@ Updated mods
 --Updated Geckolib-forge-1.16.5-3.0.61 -> Geckolib-forge-1.16.5-3.0.61
 --Updated Iceberg-1.16.5-1.0.34 -> Iceberg-1.16.5-1.0.38
 --Updated Mowziesmobs-1.5.19 -> mowziesmobs-1.5.20
-
+--Updated Supplementaries-1.16.5-0.18.0 -> Supplementaries-1.16.5-0.18.1
 ---------------------------------------------------
 **More specifics
 --Replaced ores, allowing only thermal expansion main ores ie: copper, tin, lead, etc. To be generated when smelting/pulverising.
