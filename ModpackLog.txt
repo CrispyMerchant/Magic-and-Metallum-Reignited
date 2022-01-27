@@ -52,6 +52,8 @@ Removed Mods
 Updated mods
 --Updated Geckolib-forge-1.16.5-3.0.61 -> Geckolib-forge-1.16.5-3.0.61
 --Updated Iceberg-1.16.5-1.0.34 -> Iceberg-1.16.5-1.0.38
+--Supplementaries-1.16.5-0.18.0 -> Supplementaries-1.16.5-0.18.2
+--TheAbyss2 2.2.0-1 1.16.5 -> TheAbyss2 2.2.1 1.16.5
 
 ---------------------------------------------------
 **More specifics
@@ -78,5 +80,4 @@ Main TODOs:
 
 *Remove a few of the lost trinkets for balance reasons
 *Possibly remove Hexerei for now as it's still in beta
-*Look into adding sounds to the tetra/items with missing sounds for ImmersiveFX?
-*
+*Look into adding sounds to the tetra/items for ImmersiveFX?
