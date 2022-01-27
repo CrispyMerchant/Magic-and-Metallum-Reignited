@@ -1,0 +1,33 @@
+
+#Enable ParCool Actions
+["Possibility of Actions"]
+	#Possibility to CatLeap
+	canCatLeap = true
+	#Possibility to Crawl
+	canCrawl = true
+	#Possibility to FrontFlip
+	canFrontFlip = true
+	#Possibility to Dodge
+	canDodge = true
+	#Possibility to FastRunning
+	canFastRunning = true
+	#Possibility to GrabCliff
+	canGrabCliff = true
+	#Possibility to Roll
+	canRoll = true
+	#Possibility to Vault
+	canVault = true
+	#Possibility to WallJump
+	canWallJump = true
+
+#Values
+["Modify Values"]
+	#Max Value of Stamina
+	#Range: 10 ~ 5000
+	maxStamina = 1000
+
+#About ParCool
+[ParCool]
+	#ParCool is Active
+	ParCool_Activation = true
+
