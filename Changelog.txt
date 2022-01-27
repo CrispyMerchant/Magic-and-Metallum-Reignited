@@ -1,0 +1,39 @@
+M&M Reignited-beta v1.2.5:
+
+Added Mods
+--Whisperwoods (For the spookums!)
+--Re-introduced ParCool (For all it's sprinting and flipping glory!)
+--Initial inventory (Getting ready for starting equipment)
+--Enhanced Celestials (Get ready for some frightful nights!)
+--Farsight (An 'eye-opening' experience. see what I did there?)
+--Spiders 2.0 (Making spiders, more spidery)
+--RandomPatches (Random patches)
+--Better Weather (Removed Serene Seasons)
+--KubeJS series of mods for editing recipies
+(Should be the final added mods. May change in the future with enough demand or with any issues that may come up)
+
+
+Removed Mods
+--Serene Seasons - Not exactly what I was looking for. Better weather also added more, you guessed it, weather effects.
+--Craft tweaker (replaced with KubeJS)
+
+Updated mods
+--Updated Geckolib-forge-1.16.5-3.0.61 -> Geckolib-forge-1.16.5-3.0.61
+--Updated Iceberg-1.16.5-1.0.34 -> Iceberg-1.16.5-1.0.38
+--Supplementaries-1.16.5-0.18.0 -> Supplementaries-1.16.5-0.18.2
+--TheAbyss2 2.2.0-1 1.16.5 -> TheAbyss2 2.2.1 1.16.5
+
+---------------------------------------------------
+**More specifics
+--Replaced ores, allowing only thermal expansion main ores ie: copper, tin, lead, etc. To be generated when smelting/pulverising.
+   This does not remove ores that are specifically from other mods ie: Osmium, Prosperity Ore. Just shared ores.
+   (Primary implementations were based off the Direwolf20 pack, chears to them!)
+--Removed spirit orb gen from spawners and chest gen
+--Removed specific lost trinkets I thought were a little too powerful including magical feathers and rock candy
+
+
+*Reminders/Recomendations (for those who are just seeing this pack):
+This pack is currently in it's beta stages, it's also one of the first packs I've really delved into, there will be optimization issues as well as some rough looking scripts/code
+if you have any advice, tips, or recomendations I'd love to hear them!
+
+I also recommend anyone playing to use around 6G-8G of RAM for now. Remember your JVM arguments, they can help quite a lot!
