@@ -2,7 +2,7 @@
 unlockEnabled = true
 #Cooldown (ticks) between unlocks
 #Range: 0 ~ 1728000
-unlockCooldown = 300000
+unlockCooldown = 72000
 #List of banned trinkets eg: ["losttrinkets:piggy", "losttrinkets:magical_feathers"]
 #The trinkets listed in here will also be removed from players that already unlocked them.
 blackList = ["losttrinkets:magical_feathers", "losttrinkets:mossy_belt", "losttrinkets:tea_leaf", "losttrinkets:dark_dagger", "losttrinkets:fire_mind", "losttrinkets:serpent_tooth", "losttrinkets:wither_nail", "losttrinkets:tha_bat", "losttrinkets:blaze_heart", "losttrinkets:rock_candy", "losttrinkets:magical_herbs", "losttrinkets:mad_aura"]
