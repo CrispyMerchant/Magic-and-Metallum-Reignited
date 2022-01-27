@@ -38,17 +38,15 @@ Feel free to make any comments about things you would like, or thoughts and tips
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/better-compatibility-checker">Better Compatibility Checker (by Gaz_)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/valhelsia-structures">Valhelsia Structures (by ValhelsiaTeam)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/bountiful">Bountiful (Forge) (by ejektaflex)</a></li>
-<li><a href="https://www.curseforge.com/minecraft/mc-mods/jeitweaker">JEITweaker (by Jaredlll08)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/ftb-library-forge">FTB Library (Forge) (by FTB)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/pams-harvestcraft-2-food-extended">Pam's HarvestCraft 2 - Food Extended (by pamharvestcraft)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/attributefix">AttributeFix (by DarkhaxDev)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/improvedbackpacks">Improved Backpacks (by DreenDexTwitch)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/schools-of-magic-second-semester">Schools of Magic: Second Semester (by pale_imitations)</a></li>
-<li><a href="https://www.curseforge.com/minecraft/mc-mods/serene-seasons-pams-harvest-craft-2-compat">Serene Seasons - Pam's Harvest Craft 2 Compat (by mimimimid)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/hexerei">Hexerei (by JoeFoxe)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/autoreglib">AutoRegLib (by Vazkii)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/fastfurnace-minus-replacement">Fast Furnace minus Replacement (by tfarecnim)</a></li>
-<li><a href="https://www.curseforge.com/minecraft/mc-mods/crafttweaker">CraftTweaker (by Jaredlll08)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/kubejs-forge">KubeJS (Forge) (by LatvianModder)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/better-invisibility">Better Invisibility (by Purplicious_Cow_)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/immersive-petroleum">Immersive Petroleum (by Flaxbeard)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/when-dungeons-arise">When Dungeons Arise - Forge! (by Aureljz)</a></li>
@@ -58,8 +56,8 @@ Feel free to make any comments about things you would like, or thoughts and tips
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/pams-harvestcraft-2-trees">Pam's HarvestCraft 2 - Trees (by pamharvestcraft)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/blueprint">Blueprint (by TeamAbnormals)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/enchantment-descriptions">Enchantment Descriptions (by DarkhaxDev)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/observable">Observable (by tasgon)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/chunkpregenerator">Chunk-Pregenerator (by Speiger)</a></li>
-<li><a href="https://www.curseforge.com/minecraft/mc-mods/immersive-portals-for-forge">Immersive Portals (for Forge) (by qouteall)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/minecraft-comes-alive-testing">MCA Reborn (by jahx_senpoopie)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/buzzier-bees">Buzzier Bees (by TeamAbnormals)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/spawner-fix">Spawner Bug Fix (by MacTso)</a></li>
@@ -73,7 +71,6 @@ Feel free to make any comments about things you would like, or thoughts and tips
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/jei">Just Enough Items (JEI) (by mezz)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/druidcraft">Druidcraft (by VulpTheHorseDog)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/harvest">Harvest (by Naxanria)</a></li>
-<li><a href="https://www.curseforge.com/minecraft/mc-mods/serene-seasons">Serene Seasons (by TheAdubbz)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/tinkers-construct">Tinkers Construct (by mDiyo)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/akashic-tome">Akashic Tome (by Vazkii)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/thermal-locomotion">Thermal Locomotion (by TeamCoFH)</a></li>
@@ -90,9 +87,11 @@ Feel free to make any comments about things you would like, or thoughts and tips
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/archers-paradox">Archer's Paradox (by TeamCoFH)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/codechicken-lib-1-8">CodeChicken Lib 1.8.+ (by covers1624)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/legendary-tooltips">Legendary Tooltips (by Grend_G)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/kubejs-create">KubeJS Create (by LatvianModder)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/nethers-delight">Nether's Delight (by lumpazl)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/astral-sorcery">Astral Sorcery (by HellFirePvP)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/storage-drawers">Storage Drawers (by Texelsaur)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/kubejs-blood-magic">KubeJS Blood Magic (by LatvianModder)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/just-enough-resources-jer">Just Enough Resources (JER) (by way2muchnoise)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/inventory-sorter">Inventory Sorter (by cpw)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/mekanism">Mekanism (by bradyaidanc)</a></li>
@@ -113,13 +112,17 @@ Feel free to make any comments about things you would like, or thoughts and tips
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/immersive-fx">Immersive FX (by y4z0n)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/advancement-plaques">Advancement Plaques (by Grend_G)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/farming-for-blockheads">Farming for Blockheads (by BlayTheNinth)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/the-abyss-chapter-ii">The Abyss II - The Other Side (by y4z0n)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/ender-storage-1-8">Ender Storage 1.8.+ (by covers1624)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/spiders-2-0">Spiders 2.0 (by TheCyberBrick)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/chromato-creeper">Chromato Creeper (by xx1th)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/simple-voice-chat">Simple Voice Chat (by henkelmax)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/lollipop">Lollipop (by owmii)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/geckolib">GeckoLib (by ThanosGecko)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/pams-harvestcraft-2-food-core">Pam's HarvestCraft 2 - Food Core (by pamharvestcraft)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/quark-oddities">Quark Oddities (by Vazkii)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/enhanced-celestials">Enhanced Celestials - Blood, Blue, & Harvest (Super) Moons (by Corgi_Taco)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/kubejs-thermal">KubeJS Thermal (by LatvianModder)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/shutup-experimental-settings">Shutup Experimental Settings! (by Corgi_Taco)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/pams-harvestcraft-2-crops">Pam's HarvestCraft 2 - Crops (by pamharvestcraft)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/carry-on">Carry On (by Tschipp)</a></li>
@@ -133,6 +136,7 @@ Feel free to make any comments about things you would like, or thoughts and tips
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/ctm">ConnectedTexturesMod (by tterrag1098)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/curios-quark-oddities-backpack">Curios Quark Oddities Backpack (by 6LeoMC)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/bookshelf">Bookshelf (by DarkhaxDev)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/kubejs-immersive-engineering">KubeJS Immersive Engineering (by LatvianModder)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/industrial-foregoing">Industrial Foregoing (by Buuz135)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/selene">Selene Lib (by MehVahdJukaar)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/enchanted-book-redesign">Enchanted Book Redesign (by tfarecnim)</a></li>
@@ -154,8 +158,12 @@ Feel free to make any comments about things you would like, or thoughts and tips
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/yungs-better-dungeons">YUNG's Better Dungeons (Forge) (by YUNGNICKYOUNG)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/swingthroughgrass">SwingThroughGrass (by exidex)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/yungs-api">YUNG's API (Forge) (by YUNGNICKYOUNG)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/rhino">Rhino (by LatvianModder)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/randompatches-forge">RandomPatches (Forge) (by TheRandomLabs)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/infernal-expansion">Infernal Expansion (by InfernalStudios)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/rats">Rats (by sbom_xela)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/jade">Jade 🔍 (by Snownee_)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/initial-inventory">Initial Inventory (by Jaredlll08)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/repurposed-structures">Repurposed Structures (Forge) (by telepathicgrunt)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/shoulder-surfing-reloaded">Shoulder Surfing Reloaded (by _ForgeUser21552638)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/lost-trinkets">Lost Trinkets (by owmii)</a></li>
@@ -167,7 +175,9 @@ Feel free to make any comments about things you would like, or thoughts and tips
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/tetranomicon">Tetranomicon (by syrikalis)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/architectury-forge">Architectury API (Forge) (by shedaniel)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/aquaculture">Aquaculture 2 (by Shadowclaimer)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/better-weather">Better Weather - Seasons, Blizzards, and more! (by Corgi_Taco)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/savage-and-ravage">Savage & Ravage (by TeamAbnormals)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/farsight">Farsight[Forge/Fabric] (by someaddon)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/farmers-delight">Farmer's Delight (by vectorwing)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/ftb-essentials-forge">FTB Essentials (Forge) (by FTB)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/fast-leaf-decay">Fast Leaf Decay (by olafskiii)</a></li>
@@ -178,6 +188,7 @@ Feel free to make any comments about things you would like, or thoughts and tips
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/iron-chests">Iron Chests (by ProgWML6)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/the-twilight-forest">The Twilight Forest (by Benimatic)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/mana-and-artifice">Mana and Artifice (by AWildCanadianEh)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/kubejs-mekanism">KubeJS Mekanism (by LatvianModder)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/farmers-delight-compats">Farmer's Delight Compats (by burritoeatinghamster)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/mystical-agriculture">Mystical Agriculture (by BlakeBr0)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/yungs-better-strongholds">YUNG's Better Strongholds (Forge) (by YUNGNICKYOUNG)</a></li>
@@ -189,6 +200,7 @@ Feel free to make any comments about things you would like, or thoughts and tips
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/clumps">Clumps (by Jaredlll08)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/project-vibrant-journeys">Project: Vibrant Journeys (by OrderedChaosDev)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/yungs-better-mineshafts-forge">YUNG's Better Mineshafts (Forge) (by YUNGNICKYOUNG)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/parcool">ParCool! (by alRex_U)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/ars-nouveau">Ars Nouveau (by baileyholl2)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/skin-layers-3d">Skin Layers 3D (Fabric/Forge) (by tr9zw)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/crash-utilities">Crash Utilities (by Darkere)</a></li>
@@ -216,6 +228,6 @@ Feel free to make any comments about things you would like, or thoughts and tips
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/waveycapes">Wavey Capes (by tr9zw)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/better-advancements">Better Advancements (by way2muchnoise)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/endergetic">The Endergetic Expansion (by TeamAbnormals)</a></li>
-<li><a href="https://www.curseforge.com/minecraft/mc-mods/security-craft">Security Craft (by Geforce132)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/whisperwoods">Whisperwoods (by itsmeowdev)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/my-server-is-compatible">My Server Is Compatible (by Focamacho)</a></li>
 </ul>
