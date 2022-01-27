@@ -2,7 +2,7 @@
 unlockEnabled = true
 #Cooldown (ticks) between unlocks
 #Range: 0 ~ 1728000
-unlockCooldown = 2400
+unlockCooldown = 300000
 #List of banned trinkets eg: ["losttrinkets:piggy", "losttrinkets:magical_feathers"]
 #The trinkets listed in here will also be removed from players that already unlocked them.
 blackList = ["losttrinkets:magical_feathers", "losttrinkets:mossy_belt", "losttrinkets:tea_leaf", "losttrinkets:dark_dagger", "losttrinkets:fire_mind", "losttrinkets:serpent_tooth", "losttrinkets:wither_nail", "losttrinkets:tha_bat", "losttrinkets:blaze_heart", "losttrinkets:rock_candy", "losttrinkets:magical_herbs", "losttrinkets:mad_aura"]
@@ -16,7 +16,7 @@ nonRandom = []
 	startSlots = 1
 	#Maximum number of trinket slots the player can have (does not remove unlocked slots)
 	#Range: 1 ~ 40
-	maxSlots = 40
+	maxSlots = 25
 	#Levels of xp needed to unlock a trinket slot.
 	#Range: 0 ~ 1000
 	slotCost = 15
@@ -29,21 +29,21 @@ nonRandom = []
 	killingUnlockEnabled = true
 	#Rarity of unlocking a trinket from killing non-Boss entities. (Greater number = more rare)
 	#Range: 2 ~ 100000
-	killing = 120
+	killing = 170
 
 [Bosses_Killing_Unlocks]
 	#Set to false to disable unlocking trinkets from killing Bosses.
 	bossKillingUnlockEnabled = true
 	#Rarity of unlocking a trinket from killing Bosses. (Greater number = more rare)
 	#Range: 2 ~ 100000
-	bossKilling = 10
+	bossKilling = 20
 
 [Farming_Unlocks]
 	#Set to false to disable unlocking trinkets from farming.
 	farmingUnlockEnabled = true
 	#Rarity of unlocking a trinket from farming. (Greater number = more rare)
 	#Range: 2 ~ 100000
-	farming = 140
+	farming = 160
 
 [Ores_Mining_Unlocks]
 	#Set to false to disable unlocking trinkets from mining ores.
@@ -57,12 +57,12 @@ nonRandom = []
 	tradingUnlockEnabled = true
 	#Rarity of unlocking a trinket from trading. (Greater number = more rare)
 	#Range: 2 ~ 100000
-	trading = 30
+	trading = 100
 
 [Wood_Cutting_Unlocks]
 	#Set to false to disable unlocking trinkets from cutting trees.
 	woodCuttingUnlockEnabled = true
 	#Rarity of unlocking a trinket from cutting trees. (Greater number = more rare)
 	#Range: 2 ~ 100000
-	woodCutting = 170
+	woodCutting = 190
 
