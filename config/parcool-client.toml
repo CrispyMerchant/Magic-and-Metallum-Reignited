@@ -6,9 +6,9 @@
 	#Possibility to Crawl
 	canCrawl = true
 	#Possibility to FrontFlip
-	canFrontFlip = true
+	canFrontFlip = false #Temp change for constant Flip on servers
 	#Possibility to Dodge
-	canDodge = true
+	canDodge = false #Temp change for constant Flip on servers
 	#Possibility to FastRunning
 	canFastRunning = true
 	#Possibility to GrabCliff
